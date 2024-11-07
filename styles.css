@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(204, 43%, 93%);
+    font-family: sans-serif;
+}
+
+.header{
+    background-color:white ;
+    width:60%;
+    padding:20px 30px;
+    margin:150px 250px 0px 250px;
+}
+
+.header h1{
+    color: hsl(179, 62%, 43%);
+    font-size:30px;
+}
+
+.header h3{
+    color: hsl(71, 73%, 54%);
+    padding:20px 0px;
+}
+
+.header p{
+    color: hsl(218, 22%, 67%);
+    padding-bottom: 20px;
+}
+
+.section{
+    background-color: hsl(179, 62%, 43%) ;
+    width:30%;
+    padding:20px 30px;
+    margin-left:250px ;
+}
+
+.section h1{
+    color:white;
+    font-size:20px;
+}
+
+.section h3{
+    color:hsl(204, 43%, 93%);
+    padding:20px 0px 5px 0px;
+}
+
+.section  b{
+    color:white;
+    font-size:25px;
+}
+
+.section p{
+    color:hsl(204, 43%, 93%);
+}
+
+.section button{
+    background-color:hsl(71, 73%, 54%);
+    color:white;
+    padding:15px 0px;
+    text-align: center;
+    border:none;
+    border-radius:5px;
+    width:250px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+.footer{
+    background-color:hsla(179, 62%, 43%, 0.692);
+    width:30%;
+    padding:20px 30px;
+}
+
+.footer h1{
+    color:white;
+    font-size:25px;
+}
+
+.footer p{
+    color:hsl(204, 43%, 93%);
+    width:200px;
+    padding-top: 20px;
+}
+
+.main-div{
+    display:flex;
+}
+
+/* MEDIA QUERIES OF TABLET SCREEN */
+@media(max-width:991px){
+    .header{
+        padding:20px 20px;
+        margin:150px 150px 0px 150px;
+    }
+  
+    .section{  
+        padding:20px 20px;
+        margin-left:150px ;
+    }
+
+    .section button{
+        width:180px;
+    }
+    
+    .footer{
+        padding:20px 20px;
+    }
+}
+
+/* MEDIA QUERIES OF MOBILE SCREEN */
+@media(max-width:767px){
+.header{
+    width:80%;
+    padding:20px 20px;
+    margin:150px 50px 0px 50px;
+}
+.header h1{
+    font-size:25px;
+}
+
+.section{  
+    width:80%;
+    padding:20px 20px;
+    margin:0px 50px 0px 50px;
+}
+
+
+.section b{
+    font-size:20px;
+}
+
+
+
+.footer{
+    width:80%;
+    padding:20px 20px;
+    margin:0px 50px 150px 50px;
+}
+
+.footer p{
+    width:280px;
+}
+
+.main-div{
+   flex-direction: column;
+}
+}
